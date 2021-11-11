@@ -6,17 +6,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel = "preconnect" href = "https://fonts.googleapis.com">
+<link rel = "preconnect" href = "https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400;1,700&display=swap" 
+rel="stylesheet">
     <title>Introduccion Html</title>
 </head>
 
 <body>
+    <div class="hero"></div>
 
     <header>
+        <nav>
         <details open>
             <summary>
                 Setup
             </summary>
-            <nav>
                 <ol>
                     <li>
                         <a href="#googlechrome"> Google Chrome</a>
@@ -30,24 +38,26 @@
                     <li>
                         <a href="#github">GitHub</a>
                     </li>
+                </details>
             </nav>
-        </details>
+<nav>
 
-        <details open>
-            <summary>
-                Conceptos esenciales del Desarrollo Web
-            </summary>
-            </ol>
-            <ol>
-                <li> <a href="#html">Qué es HTML</a> </li>
-                <li> <a href="#etiquetas">Etiquetas</a> </li>
-                <li> <a href="#dom">DOM</a> </li>
-                <li> <a href="#semantica">Semántica</a> </li>
-                <li> <a href="#atributos">Atributos</a> </li>
-                <li> <a href="#ccs">Que es CCS</a> </li>
-            </ol>
-        </details>
-    </header>
+    <details open>
+        <summary>
+            Conceptos esenciales del Desarrollo Web
+        </summary>
+    </ol>
+    <ol>
+        <li> <a href="#html">Qué es HTML</a> </li>
+        <li> <a href="#etiquetas">Etiquetas</a> </li>
+        <li> <a href="#dom">DOM</a> </li>
+        <li> <a href="#semantica">Semántica</a> </li>
+        <li> <a href="#atributos">Atributos</a> </li>
+        <li> <a href="#ccs">Que es CCS</a> </li>
+    </ol>
+</details>
+</header>
+</nav>
 
     <h1>
         Curso esencial de HTML y CSS
@@ -100,8 +110,33 @@
     <h2>Conceptos esenciales del Desarrollo Web</h2>
     <h3 id="html">Qué es HTML</h3>
     <p>Hyper Text Markup Language o Lenguaje de marcas Hipertexto. Es el componente más básico de la web. Define el
-        significado y la estructura del contenido.</p>
+        significado y la estructura del contenido.
+        <Code> const name = 'your name'</Code>
+    </p>
+    <pre>
+                    const name = 'your name'</pre>
+    <pre>
+        &lt;!DOCTYPE html&gt;
+        &lt;html lang=&quot;en&quot;&gt;
+        &lt;head&gt;
+            &lt;meta charset=&quot;UTF-8&quot;&gt;
+            &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;
+            &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;
+            &lt;title&gt;Document&lt;/title&gt;
+        &lt;/head&gt;
+        &lt;body&gt;
+            
+        &lt;/body&gt;
+        &lt;/html&gt;
 
+    </pre>
+    <p>Escapa o anula el escape de un archivo HTML eliminando rastros de caracteres ofensivos que podrían interpretarse
+        erróneamente como marcado.</p>
+
+    <a href="https://www.freeformatter.com/html-escape.html" target=blank>Escapar codigo html</a>
+    <code>target=blan</code>
+    para enviar el url a otra pestaña nueva
+    </p>
     <h3 id="etiquetas">Etiquetas</h3>
     <p>Las etiquetas HTML van a ayudarnos a brindar una estructura y semántica al contenido de nuestro website y cada
         una tiene características y usos diferentes aunque visualmente den un resultado similar.</p>
@@ -128,7 +163,7 @@
     <h3 id="ccs">CSS</h3>
     <p>Hojas de Estilo en Cascada (del inglés Cascading Style Sheets) o CSS es el lenguaje de estilos utilizado para
         describir la presentación de documentos HTML</p>
-    <img src="images/css.png"alt="Logo de CCS">
+    <img src="images/css.png" alt="Logo de CCS">
 
     <h3>Modelo de caja</h3>
     <h4>El modelo de caja está compuesto por:</h4>
@@ -151,7 +186,6 @@
     <img src="https://programacion.net/files/article/article_02139_.jpg" width="900" alt="Imagen HTML- persona">
     <p>Visite la pagina web
         <a href="https://www.google.com.ec/" target="_blank">Google Ecuador</a>
-
     </p>
     <p>
         Si tienes alguna pregunta escríbeme a
